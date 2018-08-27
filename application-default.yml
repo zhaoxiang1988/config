@@ -3,8 +3,8 @@ spring:
     active: default
 server: 
   port: 8801
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"
+management: 
+  endpoints: 
+    web: 
+      exposure: 
+        include: "*" 
